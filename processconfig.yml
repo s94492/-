@@ -1,0 +1,13 @@
+	process_names:
+	  - name: "{{.Matches}}"
+		cmdline:
+		- 'httpd'
+	  - name: "{{.Matches}}"
+		cmdline:
+		- 'ltd'
+	  - name: "{{.Matches}}"
+		cmdline:
+		- 'redis'
+	  - name: "{{.Matches}}"
+		cmdline:
+		- 'ypbind'
